@@ -20,6 +20,8 @@ let package = Package(
                         .copy("Resources/script"),
                         .copy("Resources/stylesheets/default-macOS"),
                         .copy("Resources/stylesheets/default-iOS"),
+                        .copy("Resources/stylesheets/messaging-macOS"),
+                        .copy("Resources/stylesheets/messaging-iOS")
             ]),
     ]
 )
